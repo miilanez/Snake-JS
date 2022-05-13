@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Snaker';
+    src: url('assets/joystix\ monospace.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: "Snaker";
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(2, 2, 2);
+    color: rgb(52, 165, 52);
+}
+
+.container-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 200px;
+    height: 200px;
+    margin-right: 1rem;
+}
+
+h1 {
+    font-size: 8em;
+    color: #83A810;
+}
+
+h2 { 
+    color: #83A810;
+}
